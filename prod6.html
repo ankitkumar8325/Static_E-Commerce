@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prod6</title>
+	<style type="text/css">
+		.offer{
+			
+			float: left;
+			padding-top: 1.5vh;
+			padding-right: 2.5vw;
+			padding-left: 2.5vw;
+			border-right: 3px solid black;
+
+		}
+		th,td{
+			background-color: #ffddff
+		}
+		td:nth-child(odd) {
+    		background-color: #ddffdd;
+		}
+		th:nth-child(odd) {
+    		background-color: #ddffdd;
+		}
+		li a{
+			color: white;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		.offer:hover{
+			font-size: 2em;
+			padding-top: .5vh;
+		}
+		.ad{
+			background-image: url('ad.jpg');
+			position: fixed;
+			bottom: 1vh;
+			right: 1vw;
+			border:2px solid black;
+			width: 28vw;
+			height: 20vh;
+		}
+		.image{
+			width: 20vw;
+			margin-left: 2vw;
+		}
+		.zoom:hover{
+			width: 25vw!important;
+		}
+		.a{
+			position: absolute;
+			top: 28vh;
+			left: 4vw;
+		}
+		.b{
+			position: absolute;
+			top: 28vh;
+			left: 34vw;
+		}
+		.c{
+			position: absolute;
+			top: 28vh;
+			left: 80vw;
+		}
+		.d{
+			position: absolute;
+			top: 48vh;
+			left: 80vw;
+		}
+		th,td,tr,table{
+			border: 2px grey solid;
+			border-collapse: collapse;
+			text-align: center;
+			padding: .5vw;
+		}
+		.tab{
+			position: absolute;
+			top: 85vh;
+			left: 32vw; 	
+		}
+		#h{
+			color: green;
+		}
+		.message{
+			position: absolute;
+			top: 100vh;
+			left: 8vw;
+		}
+		.foot{
+			background-color:#444444;
+			position: absolute;
+			top: 135vh;
+			width: 100vw;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<a href="home.html"><img src="head.jpg" style="width: 99vw;padding-bottom: 0px;" id="start"></a>
+	<form style="padding-left: 32vw; background:linear-gradient(to right,orange,white,white,green)">
+		<label for="item"><b>Search by category</b></label>
+		<select name="category">
+			<option value="">Select</option>
+			<option value="1">Men</option>
+			<option value="2">Female</option>
+			<option value="3">Technology</option>
+			<option value="4">Household</option>
+		</select>
+		<input type="text" name="search" placeholder="search item" style="padding: .2vh;width: 14vw;" id="item">
+		<button type="submit">Search</button>
+	</form>
+	<div>
+		<nav style="height: 5vh ;background-color: #444444;padding-top: 0px;padding-bottom: 2vh">
+			<ul style="list-style-type: none;">
+				<li class="offer"><a href="home.html">Home</a></li>
+				<li class="offer"><a href="special.html">Todays special</a></li>
+				<li class="offer"><a href="festival.html">Festival offer</a></li>
+				<li class="offer"><a href="terms.html">Terms and condition</a></li>
+				<li class="offer"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+	</div>
+	<a href="home.html"><img src="logo.jpg" style="position: absolute;top: 1vh;right: 0vw;height: 18vh;border:2px solid black; border-style:dashed;"></a>
+</header>
+<main>
+	<h1 style="color: green; text-align: center;">Here is your favourite product</h1>
+	<hr>
+<div style="width: 24vw;" class="a">
+	<h2 style="margin-left: 1vw;color: tomato;border-right: 2px black solid">Image: Take cursor on image to zoom</h2>
+	<hr>
+	<img src="fashion2.jpg" class="zoom image" style="margin-top: 3vh;">
+</div>
+<div style="width: 40vw;" class="b">
+	<h2 style="margin-left: 1vw;color: tomato;border-right: 2px black solid">Product description</h2>
+	<h3 style="color: blue;">XYZ Mobile</h3>
+	<p>by- ABC compony</p>
+	<hr>
+	<p style="color: red;">
+		MRP-<del>99999</del><br>
+		Todays deal-0000Rs\-
+	</p>
+	<h3 style="color: blue;">Features</h3>
+	<ul>
+		<li>Silky cloth</li>
+		<li>Not tearable</li>
+		<li>Elastic material</li><li>Silky cloth</li>
+		<li>Not tearable</li>
+		<li>Elastic material</li>
+		<li>Silky cloth</li>
+		<li>Not tearable</li>
+		<li>Elastic material</li>
+		<li>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase </li>
+	</ul>
+	<h3 style="color: blue;">Ratings- 4/5</h3>
+</div>
+<div style="width: 14vw;" class="c">
+	<h2 style="color: blue;">Now Pay using Bhim/UPI</h2>
+	<q style="color: green">We are improving day by day to provide you better sewrvice</q>
+</div>
+<div style="width: 12vw;" class="d">
+	<h2 style="margin-left: 1vw;color: tomato;text-align: center;">Make it yours</h2>
+	<div style="border:2px grey solid;">
+		<label for="number" style="margin: 1vh;">Quantity</label>
+		<select name="number" id="number" style="margin-top: 1vh;">
+			<option value="">select</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<br><br>
+		<a href="cart.html"><img src="cart3.jpg" style="width: 10vw;height: 5vh;"></a>
+		<br>
+		<a href="buy.html"><img src="buy1.jpg" style="width: 10vw;height: 5vh;"></a>
+		<br>
+		<p style="margin-left: 1vw;"><b>Share with friends</b></p>
+		<a href="https://fb.com"><img src="fb.jpg" style="width: 2.5vw;padding: .5vw;"></a>
+		<a href="https://messenger.com"><img src="me.jpg" style="width: 2.5vw;padding: .5vw;"></a>
+		<a href="https://web.whatsapp.com"><img src="wh.jpg" style="width: 2.5vw;padding: .5vw;"></a>
+	</div>
+</div>
+<div class="tab">
+	<h2 style="color: green">Compare with other similar products</h2>
+	<table style="width: 50vw;">
+		<tr>
+			<th id="h">COMPARE</th>
+			<th id="h">Compony 1</th>
+			<th id="h">Compony 2</th>
+			<th id="h">Compony 3</th>
+			<th id="h">Compony 4</th>
+			<th id="h">Compony 5</th>
+		</tr>
+		<tr>
+			<th id="h">Parameter 1</th>
+			<td>value 1</td>
+			<td>value 2</td>
+			<td>value 3</td>
+			<td>value 4</td>
+			<td>value 5</td>
+		</tr>
+		<tr>
+			<th id="h">Parameter 2</th>
+			<td>value 1</td>
+			<td>value 2</td>
+			<td>value 3</td>
+			<td>value 4</td>
+			<td>value 5</td>
+		</tr>
+		<tr>
+			<th id="h">Parameter 3</th>
+			<td>value 1</td>
+			<td>value 2</td>
+			<td>value 3</td>
+			<td>value 4</td>
+			<td>value 5</td>
+		</tr>
+		<tr>
+			<th id="h">Parameter 4</th>
+			<td>value 1</td>
+			<td>value 2</td>
+			<td>value 3</td>
+			<td>value 4</td>
+			<td>value 5</td>
+		</tr>
+		<tr>
+			<th id="h">Parameter 5</th>
+			<td>value 1</td>
+			<td>value 2</td>
+			<td>value 3</td>
+			<td>value 4</td>
+			<td>value 5</td>
+		</tr>
+	</table>
+</div>
+<div class="message">
+	<h4 style="color: blue">Have a query?Ask freely.</h4>
+	<form action="#" method="POST">
+		<label for="email">Enter email id</label><br>
+		<input type="email" name="email" placeholder="Email id" id="email" required="" style="width: 110%;"/><br>
+		<label for="contact">Contact No</label><br>
+		<input type="tell" name="contact" placeholder="Contact No" id="contact" required=""style="width: 110%;"><br>
+		<label for="message">Ask your query</label><br>
+		<textarea name="message" placeholder="Your Doubts here" id="message" style="width: 110%;"></textarea><br>
+		<button type="submit">Submit your doubt</button>
+	</form>
+	<p style="color: green;">We will get back to you very soon</p>
+</div>
+</main>
+<footer class="foot">
+	<a href="#start" style="color: white;padding-left: 2vw;">Starting of page</a>
+	<hr>
+		<nav style="height: 5vh ;background-color: #444444;padding-top: 0px; top: 9vh;padding-bottom: 2vh">
+			<ul style="list-style-type: none;">
+				<li class="offer"><a href="https://www.facebook.com/gindiaf/">Facebook</a></li>
+				<li class="offer"><a href="https://www.facebook.com/gindiaf/">Make money</a></li>
+				<li class="offer"><a href="https://www.facebook.com/gindiaf/">Deliever for us</a></li>
+				<li class="offer"><a href="terms.html">Terms and condition</a></li>
+				<li class="offer"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+</footer>
+</body>
+</html>

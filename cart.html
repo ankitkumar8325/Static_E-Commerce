@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cart</title>
+	<style type="text/css">
+		.offer{
+			
+			float: left;
+			padding-top: 1.5vh;
+			padding-right: 2.5vw;
+			padding-left: 2.5vw;
+			border-right: 3px solid black;
+
+		}
+		li a{
+			color: white;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		.offer:hover{
+			font-size: 2em;
+			padding-top: .5vh;
+		}
+		.image{
+			width: 10vw;
+			margin-left: 2vw;
+		}
+		.image2{
+			margin: 3vw;
+		}
+		.icon{
+			width: 2.5vw;
+			margin: .5vw;
+		}
+		.a{
+			position: absolute;
+			top: 28vh;
+			left: 4vw;
+			text-align: center;	
+		}
+		.b{
+			position: absolute;
+			top: 28vh;
+			left: 40vw;	
+		}
+		.c{
+			position: absolute;
+			top: 28vh;
+			left: 75vw;
+			text-align: center;	
+		}
+		.d{
+			position: absolute;
+			top: 80vh;
+			left: 2vw;
+			text-align: center;
+
+		}
+		.e{
+			position: absolute;
+			top: 87vh;
+			left: 26vw; 
+			text-align: center;	
+		}
+		.f{
+			position: absolute;
+			top: 83vh;
+			left: 48vw; 
+			text-align: center;	
+		}
+		.g{
+			position: absolute;
+			top: 80vh;
+			left: 70vw; 
+			text-align: center;	
+		}
+		.message{
+			position: absolute;
+			top: 145vh;
+			left: 8vw;
+		}
+		.foot{
+			background-color:#444444;
+			position: absolute;
+			top: 175vh;
+			width: 100vw;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<a href="home.html"><img src="head.jpg" style="width: 99vw;padding-bottom: 0px;" id="start"></a>
+	<form style="padding-left: 32vw; background:linear-gradient(to right,orange,white,white,green)">
+		<label for="item"><b>Search by category</b></label>
+		<select name="category">
+			<option value="">Select</option>
+			<option value="1">Men</option>
+			<option value="2">Female</option>
+			<option value="3">Technology</option>
+			<option value="4">Household</option>
+		</select>
+		<input type="text" name="search" placeholder="search item" style="padding: .2vh;width: 14vw;" id="item">
+		<button type="submit">Search</button>
+	</form>
+	<div>
+		<nav style="height: 5vh ;background-color: #444444;padding-top: 0px;padding-bottom: 2vh">
+			<ul style="list-style-type: none;">
+				<li class="offer"><a href="home.html">Home</a></li>
+				<li class="offer"><a href="special.html">Todays special</a></li>
+				<li class="offer"><a href="festival.html">Festival offer</a></li>
+				<li class="offer"><a href="terms.html">Terms and condition</a></li>
+				<li class="offer"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+	</div>
+	<a href="home.html"><img src="logo.jpg" style="position: absolute;top: 1vh;right: 0vw;height: 18vh;border:2px solid black; border-style:dashed;"></a>
+</header>
+<main>
+	<h1 style="color: green; text-align: center;">Your Product is added to the cart</h1>
+	<hr>
+	<div class="a">
+		<h2 style="color: green;">Other Products Advertiesment</h2>
+		<a href="prod2.html">
+		<div>
+			<img src="mob2.jpg" class="image">
+			<p>XXXX phone</p>
+			<p>Price-YYYY<del>(ZZZZ)</del></p>
+		</div>
+	</a> 
+	</div>
+<div style="width: 24vw;" class="b">
+	<h2>Refund Policy</h2>
+	<ul>
+		<li>Within range of 15 days if recieved damage.</li>
+		<li>If do not reach on time.</li>
+		<li>Should match with manufacturer policy</li>
+		<li>Replacement is available</li>
+	</ul>
+	<h2>Wants to Cancel?</h2>
+	<a href="home.html"><button>Remove From Cart</button></a>
+	<h2>Go for Payment</h2>
+	<label for="address">Fill address</label>
+	<br>
+	<textarea name="address" id="address" placeholder="Fill Address"></textarea>
+	<br>
+	<a href="buy.html"><img src="buy1.jpg" style="height: 8vh;width: 12vw"></a>
+	<h2 style="margin-bottom:.2vh;margin-top : .2vh;">Share with friends</h2>
+	<a href="https://fb.com"><img src="fb.jpg" class="icon"></a>
+	<a href="https://fb.com"><img src="me.jpg" class="icon"></a>
+	<a href="https://fb.com"><img src="wh.jpg" class="icon"></a>
+</div>
+
+<div  class="c">
+		<h2 style="color: green;">Other Products Advertiesment</h2>
+		<a href="prod4.html">
+		<div>
+			<img src="mob4.jpg" class="image">
+			<p>XXXX phone</p>
+			<p>Price-YYYY<del>(ZZZZ)</del></p>
+		</div>
+		</a>
+</div>
+	<h2 style="color: green;position: absolute;top: 84vh;left: 41vw;">Other products advertiesment</h2>
+	<a href="prod6.html">
+		<div class="d">
+		<img src="fashion2.jpg" class="image2">
+		<p>XXXX phone</p>
+		<p>Price-YYYY<del>(ZZZZ)</del></p>
+	</div>
+</a>
+	<a href="prod12.html">
+		<div class="e">
+		<img src="must4.jpg" class="image2">
+		<p>XXXX phone</p>
+		<p>Price-YYYY<del>(ZZZZ)</del></p>
+	</div>
+</a>
+	<a href="prod11.html">
+		<div class="f">
+		<img src="must3.jpg" class="image2">
+		<p>XXXX phone</p>
+		<p>Price-YYYY<del>(ZZZZ)</del></p>
+	</div>
+</a>
+	<a href="prod5.html">
+		<div class="g">
+		<img src="fashion1.jpg" class="image2">
+		<p>XXXX phone</p>
+		<p>Price-YYYY<del>(ZZZZ)</del></p>
+	</div>
+</a>
+<div class="message" >
+	<hr>
+	<h4 style="color: blue">Have a query?Ask freely.</h4>
+	<form action="#" method="POST">
+		<label for="email">Enter email id</label><br>
+		<input type="email" name="email" placeholder="Email id" id="email" required="" style="width: 110%;"/><br>
+		<label for="contact">Contact No</label><br>
+		<input type="tell" name="contact" placeholder="Contact No" id="contact" required=""style="width: 110%;"><br>
+		<label for="message">Ask your query</label><br>
+		<textarea name="message" placeholder="Your Doubts here" id="message" style="width: 110%;"></textarea><br>
+		<button type="submit">Submit your doubt</button>
+	</form>
+	<p style="color: green;">We will get back to you very soon</p>
+</div>
+</main>
+<footer class="foot">
+	<a href="#start" style="color: white;padding-left: 2vw;">Starting of page</a>
+	<hr>
+		<nav style="height: 5vh ;background-color: #444444;padding-top: 0px; top: 9vh;padding-bottom: 2vh">
+			<ul style="list-style-type: none;">
+				<li class="offer"><a href="https://www.facebook.com/gindiaf/">Facebook</a></li>
+				<li class="offer"><a href="https://www.facebook.com/gindiaf/">Make money</a></li>
+				<li class="offer"><a href="https://www.facebook.com/gindiaf/">Deliever for us</a></li>
+				<li class="offer"><a href="terms.html">Terms and condition</a></li>
+				<li class="offer"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+</footer>
+</body>
+</html>

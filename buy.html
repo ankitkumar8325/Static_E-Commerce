@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>buy</title>
+	<style type="text/css">
+		.icon{
+			height: 5vh;
+		}
+		.payment{
+			width: 24vw;
+			border: 2px grey solid;
+			position: absolute;
+			top: 27vh;
+			left: 37vw;
+			border-radius: .3vw;
+			border-top:.3vw solid green;
+		}
+		.mar{
+			margin: .5vw;
+		}
+	</style>
+</head>
+<body>
+<div class="payment">
+	<h1 style="margin-left: 1vw;">Complete the Payment</h1>
+	<hr>
+	<h2 style="margin-left: 1vw;">Select Mode of Payment</h2>
+	<form method="POST" action="#">
+		<input type="radio" name="mode"value="visa" id="visa" class="mar"><label for="visa"><img src="visa.jpg" class="icon"></label>
+		<input type="radio" name="mode" value=master" id="master" class="mar"><label for="master"><img src="master.jpg" class="icon"></label>
+		<input type="radio" name="mode"value="rupay" id="rupay" class="mar"><label for="rupay"><img src="rupay.jpg" class="icon"></label>
+		<hr>
+		<label for="card" class="mar">Card Number{16 digit}*</label>
+		<label for="cvv" style="margin-left: 3vw;"class="mar">Enter CVV{3 digit}*</label>
+		<br>
+		<input type="text" name="card" id="card" pattern="[0-9]{16}" required="" class="mar">
+		<input type="text" name="cvv" id="cvv" pattern="[0-9]{3}" required="" class="mar">
+		<br>
+		<label for="name" class="mar">Name of Card Holder*</label>
+		<label for="date" style="margin-left: 5vw;"class="mar">Expiry Date*</label>
+		<br>
+		<input type="text" name="name" id="name" required="" class="mar">
+		<input type="Date" name="date" id="date" required="" class="mar">
+		<br>
+		<button type="submit" class="mar">Request OTP</button>
+		<hr>
+	</form>
+	<form method="POST" action="#">
+		<label for="password" class="mar">Enter OTP</label>
+		<input type="password" name="password" assword" required="" class="mar">
+		<br>
+		<button type="submit" class="mar">Submit OTP</button>
+		<hr>
+	</form>
+	<p style="margin-left: 15vw;margin-top: .2vw;margin-bottom: .2vw;">*=Required</p>
+</div>
+</body>
+</html>

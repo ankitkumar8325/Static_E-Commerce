@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<style type="text/css">
+		.offer{
+			
+			float: left;
+			padding-top: 1.5vh;
+			padding-right: 2.5vw;
+			padding-left: 2.5vw;
+			border-right: 3px solid black;
+
+		}
+		li a{
+			color: white;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		.offer:hover{
+			font-size: 2em;
+			padding-top: .5vh;
+		}
+		.product{
+			margin-left: 2vw;
+		}
+		.image{
+			width: 10vw;
+		}
+		.size{
+			width: 20vw;
+		}
+		#para{
+			color: red;
+			margin-left: 1vw;
+		}
+		.prod1{
+			position: absolute;
+			top: 30vh;
+			left: 4vw;
+		}
+		.prod2{
+			position: absolute;
+			top: 30vh;
+			left: 28vw;
+		}
+		.prod3{
+			position: absolute;
+			top: 30vh;
+			left: 52vw;
+		}
+		.prod4{
+			position: absolute;
+			top: 30vh;
+			left: 76vw;
+		}
+		.prod5{
+			position: absolute;
+			top: 95vh;
+			left: 4vw;
+		}
+		.prod6{
+			position: absolute;
+			top: 95vh;
+			left: 28vw;
+		}
+		.prod7{
+			position: absolute;
+			top: 95vh;
+			left: 52vw;
+		}
+		.prod8{
+			position: absolute;
+			top: 95vh;
+			left: 76vw;
+		}
+		.prod9{
+			position: absolute;
+			top: 145vh;
+			left: 4vw;
+		}
+		.prod10{
+			position: absolute;
+			top: 145vh;
+			left: 28vw;
+		}
+		.prod11{
+			position: absolute;
+			top: 145vh;
+			left: 52vw;
+		}
+		.prod12{
+			position: absolute;
+			top: 145vh;
+			left: 76vw;
+		}
+		.foot{
+			background-color:#444444;
+			position: absolute;
+			top: 185vh;
+			width: 100vw;
+		}
+		.zoom:hover{
+			width: 10.1vw;
+			border:.1vh red solid;
+			border-style: dashed;
+			padding: 1vh;
+		}
+		button:hover{
+			background-color: tomato;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<a href="home.html"><img src="head.jpg" style="width: 99vw;padding-bottom: 0px;" id="start"></a>
+	<form style="padding-left: 32vw; background:linear-gradient(to right,orange,white,white,green)">
+		<label for="item"><b>Search by category</b></label>
+		<select name="category">
+			<option value="">Select</option>
+			<option value="1">Men</option>
+			<option value="2">Female</option>
+			<option value="3">Technology</option>
+			<option value="4">Household</option>
+		</select>
+		<input type="text" name="search" placeholder="search item" style="padding: .2vh;width: 14vw;" id="item">
+		<button type="submit">Search</button>
+	</form>
+	<div>
+		<nav style="height: 5vh ;background-color: #444444;padding-top: 0px;padding-bottom: 2vh">
+			<ul style="list-style-type: none;">
+				<li class="offer"><a href="home.html">Home</a></li>
+				<li class="offer"><a href="special.html">Todays special</a></li>
+				<li class="offer"><a href="festival.html">Festival offer</a></li>
+				<li class="offer"><a href="terms.html">Terms and condition</a></li>
+				<li class="offer"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+	</div>
+	<a href="home.html"><img src="logo.jpg" style="position: absolute;top: 1vh;right: 0vw;height: 18vh;border:2px solid black; border-style:dashed;"></a>
+</header>
+<main>
+	<h1 style="color: blue;position: absolute;top: 22vh;margin-left: 5vw;">
+		<b><u><i>Best Mobile Deals</i></u></b>
+	</h1>
+	<div class="prod1 size">
+		<a href="prod1.html">
+		<img src="mob1.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Mobile Brand</h3>
+		<h4 style="color: grey;"class="product">by Mobile Brand</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p><!check>
+	</a>
+	</div>
+		<div class="prod2 size">
+		<a href="prod2.html">
+		<img src="mob2.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Mobile Brand</h3>
+		<h4 style="color: grey;"class="product">by Mobile Brand</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+	<div class="prod3 size">
+		<a href="prod3.html">
+		<img src="mob3.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Mobile Brand</h3>
+		<h4 style="color: grey;"class="product">by Mobile Brand</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+		<div class="prod4 size">
+		<a href="prod4.html">
+		<img src="mob4.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Mobile Brand</h3>
+		<h4 style="color: grey;"class="product">by Mobile Brand</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+	<h1 style="color: blue;position: absolute;top: 85vh;margin-left: 5vw;">
+		<b><u><i>Best Fashion deals</i></u></b>
+	</h1>
+		<div class="prod5 size">
+		<a href="prod5.html">
+		<img src="fashion1.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del><delete>9999</delete></p><!check>
+	</a>
+	</div>
+		<div class="prod6 size">
+		<a href="prod6.html">
+		<img src="fashion2.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+	<div class="prod7 size">
+		<a href="prod7.html">
+		<img src="fashion3.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+		<div class="prod8 size">
+		<a href="prod8.html">
+		<img src="fashion4.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+	<h1 style="color: blue;position: absolute;top: 135vh;margin-left: 5vw;">
+		<b><u><i>Best Must have deals</i></u></b>
+	</h1>
+		<div class="prod9 size">
+		<a href="prod9.html">
+		<img src="must1.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del><delete>9999</delete></p><!check>
+	</a>
+	</div>
+		<div class="prod10 size">
+		<a href="prod10.html">
+		<img src="must2.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+	<div class="prod11 size">
+		<a href="prod11.html">
+		<img src="must3.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del></p>
+	</a>
+	</div>
+		<div class="prod12 size">
+		<a href="prod12.html">
+		<img src="must4.jpg"  class="image zoom">
+		<h3 style="color: green" class="product">Brand name</h3>
+		<h4 style="color: grey;"class="product">by Brand compony</h4>
+		<p id="para">price xxxxRs.<del>(XXXX)</del>Special discount of xxxxRs.</p>
+	</a>
+</main>
+<footer class="foot">
+	<a href="#start" style="color: white;padding-left: 2vw;">Starting of page</a>
+	<hr>
+		<nav style="height: 5vh ;background-color: #444444;padding-top: 0px; top: 9vh;padding-bottom: 2vh">
+			<ul style="list-style-type: none;">
+				<li class="offer"><a href="https://facebook.com/gindiaf/">Facebook</a></li>
+				<li class="offer"><a href="https://facebook.com/gindiaf/">Make money</a></li>
+				<li class="offer"><a href="https://facebook.com/gindiaf/">Deliever for us</a></li>
+				<li class="offer"><a href="terms.html">Terms and condition</a></li>
+				<li class="offer"><a href="help.html">Help</a></li>
+			</ul>
+		</nav>
+</footer>
+</body>
+</html>
